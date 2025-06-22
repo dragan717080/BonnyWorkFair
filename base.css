@@ -76,29 +76,19 @@ main {
     display: flex;
     flex-direction: column;
     gap: 1.625rem;
-    padding-inline: 1.25rem !important;
-    padding-bottom: 2.75rem !important;
-    background-color: pink;
+    padding-inline: 1.25rem;
+    padding-bottom: 2.75rem;
 }
 
 @media screen and (min-width: 460px) {
     #main-lower {
-        padding-inline: 1.75rem !important;
-        background-color: orange;
+        padding-inline: 3rem;
     }
 }
 
 @media screen and (min-width: 550px) {
     #main-lower {
-        padding-inline: 2.75rem !important;
-        background-color: brown;
-    }
-}
-
-@media screen and (min-width: 770px) {
-    #main-lower {
-        padding-inline: 4rem !important;
-        background-color: yellow;
+        padding-inline: 4rem;
     }
 }
 
@@ -443,6 +433,7 @@ form input {
     padding: 0.625rem 3rem !important;
     background-color: var(--orange);
     color: var(--white);
+    font-size: 0.875rem;
     font-weight: bold;
     border-radius: 1.5rem;
     transition: transform 0.2s ease;
