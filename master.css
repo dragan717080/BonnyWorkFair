@@ -28,3 +28,9 @@ main {
     background-size: cover;
     background-position-x: 50%;
 }
+
+@media screen and (max-width: 460px) {
+    #main-lower {
+        background-color: red;
+    }
+}
