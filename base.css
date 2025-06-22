@@ -385,6 +385,10 @@ form input {
     color: var(--peach);
 }
 
+.t-14 {
+    font-size: 0.875rem;
+}
+
 .t-18 {
     font-size: 1.125rem;
 }
