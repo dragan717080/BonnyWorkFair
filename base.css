@@ -95,6 +95,7 @@ main {
 @media screen and (min-width: 770px) {
     #main-lower {
         padding-inline: 4rem !important;
+        background-color: yellow;
     }
 }
 
