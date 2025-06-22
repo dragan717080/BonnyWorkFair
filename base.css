@@ -78,17 +78,20 @@ main {
     gap: 1.625rem;
     padding-inline: 1.25rem !important;
     padding-bottom: 2.75rem !important;
+    background-color: pink;
 }
 
 @media screen and (min-width: 460px) {
     #main-lower {
         padding-inline: 1.75rem !important;
+        background-color: orange;
     }
 }
 
 @media screen and (min-width: 550px) {
     #main-lower {
         padding-inline: 2.75rem !important;
+        background-color: brown;
     }
 }
 
