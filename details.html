@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="details.css">
+</head>
+
+<body>
+    <div id="top" class="col-v">
+        <div class="row t-white flex-1 bold">Детали задачи</div>
+    </div>
+    <main>
+        <div id="main-upper">
+            <div id="gray-line"></div>
+        </div>
+        <div id="main-lower" class="pb-5">
+            <div class="!mt-14 md:!mt-12">
+                <div class="title">Ваш Адрес</div>
+                <div class="rounded-box flex">
+                    <img src="static/images/map.png" height="64" width="80" alt="map">
+                    <div class="!my-3.5 !ml-2">
+                        <h3 class="bold text-black">Берлин (DE)</h3>
+                        <h6 class="!mt-1">ул. Берлинер, д. 123, 13187</h6>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="title">Детали Заказа</div>
+                <div class="rounded-box">
+                    <p>
+                        Мне нужно покрасить комнату размером 5 на 7 метров в частном доме. Хочу создать уютную и светлую
+                        атмосферу, которая будет одновременно расслабляющей и немного бодрящей. Планирую использовать
+                        светлые и тёплые тона, чтобы помещение выглядело приятным для отдыха.
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="title">Дата и Время</div>
+                <div class="col-v gap-2.5">
+                    <div class="rounded-box flex gap-5">
+                        <img src="./static/icons/date-bell.png" class="h-12 w-12" alt="date-img">
+                        <div class="row">
+                            13 Марта 2025
+                        </div>
+                    </div>
+                    <div class="rounded-box flex gap-5">
+                        <img src="./static/icons/hour-clock.png" class="h-12 w-12" alt="date-img">
+                        <div class="row">
+                            13.00 - 14.00
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="title">Способ Оплаты</div>
+                <div class="col-v gap-2.5">
+                    <div class="rounded-box flex gap-5">
+                        <img src="./static/icons/paypal.png" class="h-12 w-12" alt="date-img">
+                        <div class="row">
+                            Paypal
+                        </div>
+                    </div>
+                    <div class="rounded-box flex gap-5">
+                        <img src="./static/icons/cash.png" class="h-12 w-12" alt="date-img">
+                        <div class="row">
+                            Cash
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row-v justify-between">
+                <div class="col-v !max-w-fit">
+                    <div class="bold !text-md">Бюджет Заказа</div>
+                    <div class="bold t-gray !text-2xl !leading-tight">€ 125</div>
+                </div>
+                <button id="hire-btn" class="action-btn">Нанять</button>
+            </div>
+        </div>
+    </main>
+    <script type="text/javascript" src="details.js"></script>
+</body>
+
+</html>
