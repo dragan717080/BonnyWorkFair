@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Cool App</title>
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="sozdanie.css">
+</head>
+
+<body>
+    <div id="top" class="col-v">
+        <div class="row-v w-full justify-between">
+            <div class="row t-white flex-1 bold t-22">Создание Задания</div>
+            <div>
+                <div id="burger-menu">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <nav class="nav" id="nav-menu">
+                    <ul>
+                        <li><a href="/">Главная страница</a></li>
+                        <li><a href="/categories">Категории</a></li>
+                        <li><a href="/details">Подробнее</a></li>
+                        <li><a href="/master">Мастери</a></li>
+                        <!-- <li><a href="/request-master">Запросить мастера</a></li> -->
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="subtitle t-18 !t-gray-550">
+            Категория: Домашний Мастер
+        </div>
+    </div>
+    <main>
+        <div id="main-upper">
+            <div id="gray-line"></div>
+        </div>
+        <div id="main-lower" class="pb-5">
+            <div>
+                <form>
+                    <div class="col-v gap-5">
+                        <div class="!mt-14 md:!mt-12">
+                            <div class="title">Название Заказа</div>
+                            <div class="rounded-box flex gap-5">
+                                <img src="./static/icons/notebook.png" class="h-12 w-12" alt="Название">
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="title">Детали Заказа</div>
+                            <div class="rounded-box !py-4 !px-3">
+                                <p class="bold t-14 sm:t-16 t-gray-550">
+                                    Мне нужно покрасить комнату размером 5 на 7 метров в частном доме. Хочу создать
+                                    уютную и
+                                    светлую
+                                    атмосферу, которая будет одновременно расслабляющей и немного бодрящей. Планирую
+                                    использовать
+                                    светлые и тёплые тона, чтобы помещение выглядело приятным для отдыха.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="title">Указать Дату и Время</div>
+                            <div class="col-v gap-2.5">
+                                <div class="rounded-box flex gap-5">
+                                    <img src="./static/icons/date-bell.png" class="h-12 w-12" alt="Дата">
+                                </div>
+                                <div class="rounded-box flex gap-5">
+                                    <img src="./static/icons/hour-clock.png" class="h-12 w-12" alt="Время">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="title">Фото/Файлы</div>
+                            <div class="row h-28 w-28 !ml-2.5 bg-lgtgray bold t-white rounded-25">
+                                <span class="t-28">+</span>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="title">Адрес Выполнения</div>
+                            <div class="rounded-box flex gap-5">
+                                <img src="./static/images/map.png" class="h-12 w-12" alt="Адрес">
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="title">Стоимость Выполнения</div>
+                            <div class="rounded-box flex gap-5">
+                                <img src="./static/icons/cash.png" class="h-12 w-12" alt="Стоимость">
+                            </div>
+                        </div>
+                        <button id="sozdanie-btn" class="action-btn">Создать Задание</button>
+                    </div>
+                </form>
+            </div>
+    </main>
+    <script type="text/javascript" src="sozdanie.js"></script>
+</body>
+
+</html>

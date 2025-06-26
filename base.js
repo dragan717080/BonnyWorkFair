@@ -27,7 +27,7 @@ const addBurgerMenuListener = () => {
         navElement.style.opacity = newOpacity;
       }
 
-      const newTransform = isActive ? 100 - i : i
+      const newTransform = isActive ? 100 - i : i;
       navElement.style.transform = `translateX(${newTransform}%)`;
     }
     // Account for previous opacity skip

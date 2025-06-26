@@ -21,6 +21,7 @@ html {
     --slate-550: #838993;
     --gray-550: #9C9C9C;
     --lgtgray: #D9D9D9;
+    --lighttan: #F0AC95;
     --orange: #E1592C;
     --peach: #FFAB90;
     --red: #FB2C36;
@@ -455,8 +456,28 @@ form input {
     color: var(--peach);
 }
 
+.bg-lighttan {
+    background-color: var(--lighttan);
+}
+
+.t-lighttan {
+    color: var(--lighttan);
+}
+
+.bg-lighttan {
+    background-color: var(--lighttan);
+}
+
+.t-lighttan {
+    color: var(--lighttan);
+}
+
 .t-14 {
     font-size: 0.875rem;
+}
+
+.t-16 {
+    font-size: 1rem;
 }
 
 .t-18 {
@@ -519,6 +540,10 @@ form input {
     background-color: var(--gray-50);
     border: 1px solid var(--gray-250);
     border-radius: 0.375rem;
+}
+
+.rounded-25 {
+    border-radius: 1.5625rem;
 }
 
 .action-btn:active {
