@@ -534,6 +534,22 @@ form input {
     transition: transform 0.2s ease;
 }
 
+.custom-select {
+    appearance: none;
+    /* Removes default styling */
+    -webkit-appearance: none;
+    /* Safari */
+    -moz-appearance: none;
+    /* Firefox */
+    background: url('data:image/svg+xml;utf8,<svg fill="black" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>') no-repeat right 10px center;
+    background-color: white;
+    padding: 10px;
+    padding-right: 30px;
+    /* space for the arrow */
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
 .rounded-box {
     padding: 0.375rem 0.5rem;
     display: flex;
@@ -558,4 +574,30 @@ form input {
 
 .error {
     color: var(--red);
+}
+
+.custom-select[name='hour-start'],
+.custom-select[name='hour-end'],
+.custom-select[name='minute-start'],
+.custom-select[name='minute-end'],
+.custom-select[name='day'] {
+    background: url('data:image/svg+xml;utf8,<svg fill="black" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>') no-repeat right 50px center;
+    background-color: white;
+    padding: 2px 4px;
+    /* space for the arrow */
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.custom-select[name='month'] {
+    background: url('data:image/svg+xml;utf8,<svg fill="black" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>') no-repeat right 120px center;
+    background-color: white;
+    padding: 2px 4px;
+    /* space for the arrow */
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.custom-select:focus {
+    outline: none;
 }
