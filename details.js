@@ -62,7 +62,15 @@ const checkHoursAndMinutes = () => {
 }
 
 
-const hire = () => {
+/**
+ * @param {PointerEvent<HTMLButtonElement>} e
+ *
+ * @returns {boolean}
+ */
+const hire = (e) => {
+  console.log('e:', e);
+  console.log(e.target);
+  e.preventDefault();
   const selectedPayOption = checkPayOptionIsActive();
   const selectedTime = checkHoursAndMinutes();
   console.log('selectedTime:', selectedTime);
@@ -130,6 +138,6 @@ const addListenersForPaypalAndCash = () => {
 }
 
 const hireBtn = document.getElementById('hire-btn');
-hireBtn.addEventListener('click', () => hire());
+hireBtn.addEventListener('click', (e) => hire(e));
 
 addListenersForPaypalAndCash();
