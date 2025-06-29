@@ -68,9 +68,8 @@ const checkHoursAndMinutes = () => {
  * @returns {boolean}
  */
 const hire = (e) => {
-  console.log('e:', e);
-  console.log(e.target);
   e.preventDefault();
+
   const selectedPayOption = checkPayOptionIsActive();
   const selectedTime = checkHoursAndMinutes();
   console.log('selectedTime:', selectedTime);

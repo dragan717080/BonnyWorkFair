@@ -598,6 +598,7 @@ form input {
     border-radius: 6px;
 }
 
-.custom-select:focus {
+.custom-select:focus,
+input[type="number"]:focus {
     outline: none;
 }
