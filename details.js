@@ -72,7 +72,6 @@ const hire = (e) => {
 
   const selectedPayOption = checkPayOptionIsActive();
   const selectedTime = checkHoursAndMinutes();
-  console.log('selectedTime:', selectedTime);
 
   if (!selectedPayOption || !selectedTime) {
     return false;
